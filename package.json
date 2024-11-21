@@ -1,0 +1,23 @@
+{
+  "name": "grapesjs-export-react",
+  "version": "1.0.0",
+  "description": "Grapesjs Export React",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR-USERNAME/grapesjs-export-react.git"
+  },
+  "scripts": {
+    "start": "grapesjs-cli serve",
+    "build": "grapesjs-cli build",
+    "bump": "npm version patch -m 'Bump v%s'"
+  },
+  "keywords": [
+    "grapesjs",
+    "plugin"
+  ],
+  "devDependencies": {
+    "grapesjs-cli": "^4.1.3"
+  },
+  "license": "MIT"
+}
